@@ -22,17 +22,17 @@
 # 
 # Integrando com o Banco de Dados
 #
-# Descompacte o Arquivo que está neste diretório com o nome de "mysql.rar"
-# Copie a pasta mysql e cole no diretório ...\wildfly-10.1.0.Final\modules\system\layers\base\com
-# Descompacte o Arquivo que está neste diretório com o nome de "standalone.rar"
-# Copie a pasta mysql e cole no diretório ...\wildfly-10.1.0.Final\standalone\configuration
-# No MySql, crie um novo Database com o nome 'mysql-xy'
-# No MySql, crie um novo Usuário com o nome 'user' e a senha 1234, com todos privilégios do Database criado
-# Dentro do Database 'mysql-xy' crie uma tabela chamada 'pois' com 4 colunas
-# (id int(11) PK)
-# (coordenadaX int(11))
-# (coordenaday int(11))
-# (nome varchar(255))
+## Descompacte o Arquivo que está neste diretório com o nome de "mysql.rar"
+## Copie a pasta mysql e cole no diretório ...\wildfly-10.1.0.Final\modules\system\layers\base\com
+## Descompacte o Arquivo que está neste diretório com o nome de "standalone.rar"
+## Copie a pasta mysql e cole no diretório ...\wildfly-10.1.0.Final\standalone\configuration
+## No MySql, crie um novo Database com o nome 'mysql-xy'
+## No MySql, crie um novo Usuário com o nome 'user' e a senha 1234, com todos privilégios do Database criado
+## Dentro do Database 'mysql-xy' crie uma tabela chamada 'pois' com 4 colunas
+## (id int(11) PK)
+## (coordenadaX int(11))
+## (coordenaday int(11))
+## (nome varchar(255))
 
 # Testes da Aplicação
 #
@@ -43,10 +43,10 @@
 ## Entre com os dados: (Escola, 30, 30) e salve
 ## Volte na tela inicial e selecione a opção Listar Todos Pontos de Interesse
 ## Verifique se o Ponto Cadastrado está na Lista
-### No Cadastro é feito a validação do formulário por javascript, para testar deixe um espaço em branco
+#### No Cadastro é feito a validação do formulário por javascript, para testar deixe um espaço em branco
 #
 ## Teste da Consulta por Proximidade
 ## Selecione a opção 'Listar Pontos de interesse por proximidade'
 ## Entre com os dados: (20, 10 ,10) e busque
 ## Na tela verifique se os dados estão corretos e se estão corretamente apresentados
-### No Cadastro é feito a validação do formulário por javascript, para testar deixe um espaço em branco
+#### No Cadastro é feito a validação do formulário por javascript, para testar deixe um espaço em branco
